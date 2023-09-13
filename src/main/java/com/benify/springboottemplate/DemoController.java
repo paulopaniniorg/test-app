@@ -13,7 +13,7 @@ public class DemoController {
     }
 
     @GetMapping(path = "/bye")
-    public String sayHello() {
+    public String sayBye() {
         return "Bye from test-app";
     }
 }
