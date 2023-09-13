@@ -9,6 +9,11 @@ public class DemoController {
 
     @GetMapping(path = "/hello")
     public String sayHello() {
-        return "Hello World from test-app";
+        return "Hello World from test-app test";
+    }
+
+    @GetMapping(path = "/bye")
+    public String sayHello() {
+        return "Bye from test-app";
     }
 }
